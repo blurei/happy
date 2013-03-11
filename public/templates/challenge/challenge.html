@@ -3,15 +3,14 @@
 	<header>
 		{{name}}
 	</header>
-	
+
 	<ul>
 		{{#activities}}
 		<li>
-			{{name}}
-			{{id}}
-			{{skills}}
-			{{/activities}}
-		</li>
+			<a href="#activity/{{id}}">{{skill}}-{{name}}</a>
+		</li>	
+		{{/activities}}
+	
 	</ul>
 
 </section>
