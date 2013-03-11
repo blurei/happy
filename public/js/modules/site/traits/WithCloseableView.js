@@ -1,6 +1,10 @@
 define(function(require) {
     "use strict";
 
+	var warnViewNotClosedProperly = function() {
+		console.warn("you may not have unbound event handlers. override onClose to do proper cleanup.")	
+	}
+	
     var WithCloseableView = {
 
         close: function() {
@@ -11,7 +15,9 @@ define(function(require) {
             this.onClose();
             this.remove();
             this.unbind();
-        }
+        },
+        
+        onClose: warnViewNotClosedProperly
         
     };
 
