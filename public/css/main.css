@@ -95,47 +95,6 @@ a {
 }
 
 /***Extends****/
-/* line 27, ../sass/partials/_global.scss */
-form#find-photos input[type=submit] {
-  display: inline-block;
-  color: #FFFFFF;
-  font-size: .9em;
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
-  -ms-border-radius: 0.3em;
-  -o-border-radius: 0.3em;
-  border-radius: 0.3em;
-  border: solid 0;
-  padding: 0.7em 1em;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* line 38, ../sass/partials/_global.scss */
-form#find-photos input[type=submit] {
-  background-color: #276791;
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF276791', endColorstr='#FF15405C');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #427eae), color-stop(20%, #669dd5), color-stop(80%, #427eae), color-stop(100%, #276791));
-  background-image: -webkit-linear-gradient(top, #427eae 0%, #669dd5 20%, #427eae 80%, #276791 100%);
-  background-image: -moz-linear-gradient(top, #427eae 0%, #669dd5 20%, #427eae 80%, #276791 100%);
-  background-image: -o-linear-gradient(top, #427eae 0%, #669dd5 20%, #427eae 80%, #276791 100%);
-  background-image: linear-gradient(top, #427eae 0%, #669dd5 20%, #427eae 80%, #276791 100%);
-  -webkit-box-shadow: 0 0 0 2px rgba(14, 62, 93, 0.4);
-  -moz-box-shadow: 0 0 0 2px rgba(14, 62, 93, 0.4);
-  box-shadow: 0 0 0 2px rgba(14, 62, 93, 0.4);
-}
-/* line 44, ../sass/partials/_global.scss */
-form#find-photos input[type=submit]:hover {
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF18577D', endColorstr='#FF276791');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4c87b9), color-stop(20%, #7eb1e4), color-stop(80%, #4c87b9), color-stop(100%, #427eae));
-  background-image: -webkit-linear-gradient(top, #4c87b9 0%, #7eb1e4 20%, #4c87b9 80%, #427eae 100%);
-  background-image: -moz-linear-gradient(top, #4c87b9 0%, #7eb1e4 20%, #4c87b9 80%, #427eae 100%);
-  background-image: -o-linear-gradient(top, #4c87b9 0%, #7eb1e4 20%, #4c87b9 80%, #427eae 100%);
-  background-image: linear-gradient(top, #4c87b9 0%, #7eb1e4 20%, #4c87b9 80%, #427eae 100%);
-}
-
 /* line 1, ../sass/partials/_shell.scss */
 .shell {
   width: 100%;
@@ -154,23 +113,25 @@ form#find-photos input[type=submit]:hover {
   padding: .5em;
   background-color: #FFF3D1;
   border: 2px solid #1a1496;
+  margin-right: 1em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
-/* line 20, ../sass/partials/_shell.scss */
+/* line 22, ../sass/partials/_shell.scss */
 .shell nav li a {
   color: #1A1496;
   font-size: 1.4em;
   font-weight: bold;
 }
-/* line 26, ../sass/partials/_shell.scss */
+/* line 28, ../sass/partials/_shell.scss */
 .shell nav li:hover {
   background-color: #F0B343;
 }
-/* line 30, ../sass/partials/_shell.scss */
+/* line 32, ../sass/partials/_shell.scss */
 .shell .spinny {
   position: absolute;
   top: 0;
@@ -182,54 +143,19 @@ form#find-photos input[type=submit]:hover {
   display: none;
 }
 
-/* line 1, ../sass/partials/_photo-list.scss */
-.photo-list {
-  padding: 1em;
+/* line 2, ../sass/partials/_challenge.scss */
+.challenge header {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.5em 0;
 }
-/* line 4, ../sass/partials/_photo-list.scss */
-.photo-list img {
+/* line 8, ../sass/partials/_challenge.scss */
+.challenge li {
   display: block;
-  border: 5px #9ba3c2 solid;
-}
-/* line 9, ../sass/partials/_photo-list.scss */
-.photo-list li {
-  margin: 10px;
-  float: left;
+  line-height: 1.5em;
 }
 
-/* line 1, ../sass/partials/_find-photos.scss */
-form#find-photos {
-  padding-bottom: 1em;
-  border-bottom: 5px #1a1496 solid;
-}
-/* line 6, ../sass/partials/_find-photos.scss */
-form#find-photos input[type=text] {
-  width: 15em;
-  text-indent: .25em;
-  height: 2em;
-  padding: 0;
-  border: 0 none;
-  font-size: 1.2em;
-  -webkit-box-shadow: 0 0 0 0.25em rgba(0, 0, 0, 0.1), inset 0 0 0.25em 0.06em rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 0 0 0.25em rgba(0, 0, 0, 0.1), inset 0 0 0.25em 0.06em rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 0 0.25em rgba(0, 0, 0, 0.1), inset 0 0 0.25em 0.06em rgba(0, 0, 0, 0.3);
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px;
-  border-radius: 1px;
-  margin: 0 0.25em;
-}
-/* line 15, ../sass/partials/_find-photos.scss */
-form#find-photos input[type=text]::-webkit-input-placeholder {
-  color: #9C9C9C;
-}
-/* line 19, ../sass/partials/_find-photos.scss */
-form#find-photos input[type=text]:-moz-placeholder {
-  color: #9C9C9C;
-}
-
-/* line 9, ../sass/main.scss */
+/* line 8, ../sass/main.scss */
 #main {
   height: 600px;
   border-top: 7px solid #1a1496;
@@ -237,16 +163,16 @@ form#find-photos input[type=text]:-moz-placeholder {
   overflow-y: scroll;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 .home {
   text-align: center;
 }
-/* line 19, ../sass/main.scss */
+/* line 18, ../sass/main.scss */
 .home h1 {
   font-size: 3em;
   margin: 1em 0;
 }
-/* line 23, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
 .home h2 {
   font-size: 1.5em;
 }

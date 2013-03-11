@@ -4,7 +4,7 @@
     require.config({
         paths: {
             "jquery": "thirdparty/jquery/1.9.1/jquery.min",
-            "jquery.masonry": "thirdparty/jquery.masonry/2.1.08/jquery.masonry.min",
+           // "jquery.masonry": "thirdparty/jquery.masonry/2.1.08/jquery.masonry.min",
             "Underscore": "thirdparty/underscore/1.4.2/underscore",
             "json2": "thirdparty/json2/json2",
             "Backbone": "thirdparty/backbone/0.9.10/backbone",
@@ -16,7 +16,7 @@
             "EventBus": "modules/site/EventBus"
         },
         shim: {
-        	"jquery.masonry": ["jquery"],
+        	//"jquery.masonry": ["jquery"],
             "Underscore": {
                 exports: "_"
             },
