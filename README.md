@@ -1,7 +1,7 @@
 happy
 ===================
 
-small backbone application that pulls challanges from happigy api
+small backbone application that pulls challanges from happify api
 
 To startup: 
 
