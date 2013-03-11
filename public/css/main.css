@@ -160,7 +160,7 @@ a {
   height: 600px;
   border-top: 7px solid #1a1496;
   padding: 1em;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 /* line 15, ../sass/main.scss */
